@@ -297,22 +297,24 @@ body {
   transform: translateX(-50%);
   width: 40vmin;
   height: 35vmin;
-  background-color: #6B4423;
+  background-color: #8B4513;
   background-image: linear-gradient(
     to bottom, 
-    #8B5A2B, 
-    #6B4423 30%, 
+    #9B5C2A, 
+    #7B4513 30%, 
     #5B3A23 60%, 
     #4D2E1A
   );
   border-radius: 3vmin 3vmin 12vmin 12vmin;
-  border-left: 2vmin solid #5B3A23;
-  border-right: 2vmin solid #5B3A23;
+  border-left: 2vmin solid #6B4423;
+  border-right: 2vmin solid #6B4423;
   border-bottom: 3vmin solid #4D2E1A;
   box-shadow: 
-    0 1vmin 2vmin rgba(0,0,0,0.5);
-  z-index: 10;
-  opacity:1;
+    inset 0 -2vmin 3vmin rgba(0,0,0,0.3),
+    0 1vmin 4vmin rgba(0,0,0,0.4);
+  z-index: 0;
+  opacity: 1;
+  overflow: hidden;
 }
 
 .flower__pot::before {
@@ -324,10 +326,10 @@ body {
   width: 45vmin;
   height: 6vmin;
   background-color: #5B3A23;
-  border-radius: 70%;
-  z-index: 10;
+  border-radius: 50%;
   box-shadow: 
-    0 -1vmin 2vmin rgba(0,0,0,0.3);
+    0 -1vmin 2vmin rgba(0,0,0,0.2),
+    inset 0 1vmin 2vmin rgba(255,255,255,0.1);
 }
 
 .flower__pot::after {
@@ -339,9 +341,9 @@ body {
   width: 45vmin;
   height: 6vmin;
   background-color: #4D2E1A;
-  border-radius: 70%;
+  border-radius: 50%;
   opacity: 1;
-  z-index: 10;
+  filter: blur(0.5vmin);
 }
 
 @keyframes flower-g-long-ans {
