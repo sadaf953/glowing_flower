@@ -34,8 +34,4 @@ An enchanting web animation featuring three luminous, dynamically animated flowe
 ## Customization
 Modify colors, animations, and elements in the CSS and JavaScript files to personalize the scene.
 
-## License
-[Your License Here - e.g., MIT]
 
-## Created By
-[Your Name]
